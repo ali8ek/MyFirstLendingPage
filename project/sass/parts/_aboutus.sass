@@ -1,0 +1,59 @@
+.aboutus
+	overflow: hidden
+	width: 1291px
+	height: 436px
+	margin-left: auto
+	margin-right: auto
+	margin-top: -130px
+	background: #fff
+	box-shadow: 0 0 50px rgba(0,0,0,0.5)
+	+phone
+		width: 720px
+		height: 1200px
+	+tablet
+		width: 720px
+		height: 1200px
+	// +laptop
+	// 	width: 720px
+	// 	height: 800px
+	+desktop
+		width: 1291px
+		height: 436px
+	&-text
+		float: left
+		padding: 20px
+		padding-left: 15px
+		margin-top: 21px
+		+phone
+			padding: 20px 40px
+			line-height: 1.5
+		+desktop
+			padding: 0
+
+		&__caption
+			color: #C02222
+			font-size: 30px
+			padding: 0
+			margin: 0
+			+phone
+				font-size: 25px
+			+desktop
+				font-size: 30px
+		&__desk
+			font-size: 15px
+			+phone
+				font-size: 14px
+			+desktop
+				font-size: 15px
+	&-video
+		width: 500px
+		margin-right: 135px
+		margin-top: 28px
+		float: right
+		padding: 14px
+		+phone
+			float: none
+			padding: 40px
+		+desktop
+			float: right
+			padding: 14px
